@@ -1,0 +1,19 @@
+doctype
+html
+    head
+        title #{title} - Quote Collection
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        header
+            h1 Quote Collection
+        .container
+            .main-content
+                block newquotes
+            .sidebar
+                block sidebar
+
+        .container
+            .content
+                block displayquotes
+        footer
+            p Running on node with Express, Jade and Stylus

@@ -1,0 +1,31 @@
+{
+  "name": "express-test",
+  "version": "1.0.0",
+  "description": "Testing express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ina-demarco/express-test.git"
+  },
+  "keywords": [
+    "express.js",
+    "node.js"
+  ],
+  "author": "Ina de Marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ina-demarco/express-test/issues"
+  },
+  "homepage": "https://github.com/ina-demarco/express-test#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.25",
+    "nib": "^1.1.2",
+    "stylus": "^0.54.5"
+  }
+}

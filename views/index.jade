@@ -1,0 +1,30 @@
+extend layout
+block newquotes
+    p
+        | Please enter cool quotes below!
+
+    form(action="/quotes", method="post")
+        div.input
+            span.label name
+            input(type="text", name="name")
+            div.input
+                span.label quote
+                input(type="text", name="quote")
+        div.actions
+            input(type="submit", value="submit quote")
+
+block displayquotes
+    .widget
+        h1 Look at those cool quotes!
+        ul
+            for quote in quotes
+                li=quote.name +": '"+quote.quote+ "'"
+            else
+                li sorry, no quotes available yet!
+block sidebar
+    .widget
+        h1 Example
+        p
+            | To be, or not to be, that is the question!
+        p
+            | - Hamlet (Shakespeare)
