@@ -2,6 +2,6 @@
 Express.js tests and code snippets
 
 Prerequisites:
-MongoDB 
-Node.js and other dependencies (see package.json)
+</br>MongoDB 
+</br>Node.js and other dependencies (see package.json)
 
